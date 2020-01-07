@@ -132,4 +132,7 @@
       <Name>TipoPaginaXF</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\logoXamarin.png" />
+  </ItemGroup>
 </Project>
