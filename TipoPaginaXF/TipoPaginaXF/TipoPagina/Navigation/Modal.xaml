@@ -6,7 +6,11 @@
              mc:Ignorable="d"
              x:Class="TipoPaginaXF.TipoPagina.Navigation.Modal">
     <ContentPage.Content>
-        <StackLayout>
+        <StackLayout BackgroundColor="LightSkyBlue">
+            <StackLayout HeightRequest="50" BackgroundColor="LightBlue">
+                <Label Text="Eu sou o titulo"/>
+                <Button Text="X" Clicked="FecharModal"/>
+            </StackLayout>
             <Label Text="Eu sou um Modal"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
