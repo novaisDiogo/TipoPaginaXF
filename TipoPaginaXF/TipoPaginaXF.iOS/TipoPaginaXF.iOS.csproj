@@ -135,4 +135,10 @@
   <ItemGroup>
     <BundleResource Include="Resources\logoXamarin.png" />
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\2.Png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\play.png" />
+  </ItemGroup>
 </Project>
