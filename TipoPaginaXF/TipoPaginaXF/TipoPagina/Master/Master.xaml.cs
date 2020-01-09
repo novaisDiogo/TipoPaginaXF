@@ -19,14 +19,17 @@ namespace TipoPaginaXF.TipoPagina.Master
         private void MudarPagina1(object sender, EventArgs args)
         {
             Detail = new NavigationPage(new Navigation.Page1());
+            IsPresented = false;
         }
         private void MudarPagina2(object sender, EventArgs args)
         {
             Detail = new Navigation.Page2();
+            IsPresented = false;
         }
         private void MudarPagina3(object sender, EventArgs args)
         {
             Detail = new Conteudo();
+            IsPresented = false;
         }
     }
 }
